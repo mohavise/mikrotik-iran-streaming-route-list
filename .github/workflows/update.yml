@@ -1,9 +1,9 @@
 name: Update Filimo Lists
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "17 1 * * *"
+    - cron: "30 23 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,16 +11,28 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Install tools
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y dnsutils jq
 
-      - name: Build lists
-        run: bash ./scripts/build-filimo.sh
+      - name: Generate Filimo lists
+        run: |
+          chmod +x scripts/build-filimo.sh
+          ./scripts/build-filimo.sh
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update Filimo route lists"
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add filimo-domains.txt filimo-hosts.txt filimo-ips.txt filimo-prefixes.txt mikrotik-filimo-address-list.rsc
+
+          if git diff --cached --quiet; then
+            echo "No Filimo list changes"
+          else
+            git commit -m "Automatic Filimo route list update"
+            git push
+          fi
