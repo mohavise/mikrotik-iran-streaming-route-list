@@ -18,7 +18,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y dnsutils jq
 
       - name: Build lists
-        run: ./scripts/build-filimo.sh
+        run: bash ./scripts/build-filimo.sh
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
