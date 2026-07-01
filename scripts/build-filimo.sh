@@ -15,6 +15,26 @@ normalize_domains() {
     sed '/^$/d'
 }
 
+public_ipv4_filter() {
+  awk -F. '
+    NF == 4 && $1 ~ /^[0-9]+$/ && $2 ~ /^[0-9]+$/ && $3 ~ /^[0-9]+$/ && $4 ~ /^[0-9]+$/ {
+      a=$1+0; b=$2+0; c=$3+0; d=$4+0
+      if (a>255 || b>255 || c>255 || d>255) next
+      if (a==0 || a==10 || a==127 || a>=224) next
+      if (a==100 && b>=64 && b<=127) next
+      if (a==169 && b==254) next
+      if (a==172 && b>=16 && b<=31) next
+      if (a==192 && b==168) next
+      if (a==192 && b==0 && c==0) next
+      if (a==192 && b==0 && c==2) next
+      if (a==198 && (b==18 || b==19)) next
+      if (a==198 && b==51 && c==100) next
+      if (a==203 && b==0 && c==113) next
+      print
+    }
+  '
+}
+
 normalize_domains < "$ROOT_DIR/config/domains.txt" >> "$domains_raw"
 
 if command -v curl >/dev/null 2>&1 && command -v jq >/dev/null 2>&1; then
@@ -38,7 +58,7 @@ while IFS= read -r host; do
   fi
 done < "$ROOT_DIR/filimo-hosts.txt"
 
-sort -u "$ips_raw" > "$ROOT_DIR/filimo-ips.txt"
+sort -u "$ips_raw" | public_ipv4_filter > "$ROOT_DIR/filimo-ips.txt"
 sed 's#$#/32#' "$ROOT_DIR/filimo-ips.txt" > "$ROOT_DIR/filimo-prefixes.txt"
 
 {
