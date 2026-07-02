@@ -1,0 +1,11 @@
+aparat.com
+api.filimo.com
+cdn.filimo.com
+filimo.com
+static.filimo.com
+static2.filimo.com
+static3.filimo.com
+stream.filimo.com
+vod.filimo.com
+www.aparat.com
+www.filimo.com
