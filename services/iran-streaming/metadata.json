@@ -1,0 +1,31 @@
+{
+  "managed_by": "mohavise-mikrotik-iran-streaming-route-list",
+  "project": "mikrotik-iran-streaming-route-list",
+  "service": "iran-streaming",
+  "description": "Iranian streaming, VOD, live TV, and media service list.",
+  "master_repo": "mohavise/mikrotik-iran-streaming-route-list",
+  "routeros_address_list": "DST-IRAN-STREAMING-TO-OUTBOUND",
+  "source_database": "services/iran-streaming/database/domains.txt",
+  "outputs": {
+    "domains": "iran-streaming-domains.txt",
+    "urls": "iran-streaming-urls.txt",
+    "routeros_rsc": "services/iran-streaming/output/list-all.rsc",
+    "safe_install": "safe-install-iran-streaming-small-router.rsc"
+  },
+  "children": {
+    "fortigate": {
+      "repo": "mohavise/fortigate-iran-streaming-route-list",
+      "output": "fortigate-iran-streaming-domains.txt",
+      "type": "domain-feed"
+    }
+  },
+  "update_order": [
+    "mikrotik-iran-streaming-route-list",
+    "fortigate-iran-streaming-route-list"
+  ],
+  "future": [
+    "add FortiGate IP/CIDR feed only if reliable sources exist",
+    "keep final device-facing files in repo root",
+    "keep child repos as generated outputs only"
+  ]
+}
