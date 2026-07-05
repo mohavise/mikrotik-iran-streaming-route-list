@@ -1,9 +1,32 @@
+# Iranian video / VOD / live streaming services
+# One domain per line. The builder discovers common subdomains, CT names,
+# public urlscan observations, page links, DNS A records, and MikroTik FQDN entries.
+
+# Saba Idea / Filimo / Aparat
 filimo.com
-www.filimo.com
-api.filimo.com
-static.filimo.com
-static2.filimo.com
-static3.filimo.com
-cdn.filimo.com
-vod.filimo.com
-stream.filimo.com
+aparat.com
+aparatkids.com
+televika.com
+
+# VOD platforms
+namava.ir
+imvbox.com
+
+# Live TV / sports / broadcaster platforms
+telewebion.com
+anten.ir
+lenz.ir
+tva.ir
+tv.ir
+irib.ir
+ifilmtv.ir
+
+# Iranian video sharing / archive style platforms
+tamasha.com
+shabakema.com
+mp4.ir
+namasha.com
+
+# Common media/CDN domains seen around Iranian platforms
+sabaidea.com
+sabavision.com
