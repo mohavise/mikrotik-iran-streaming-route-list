@@ -1,83 +1,25 @@
-# managed-by=mohavise-mikrotik-iran-streaming
+# managed-by=mohavise-iran-streaming-route-list
 # project=iran-streaming-route-list
-# do-not-edit-manually
+# service=iran-streaming
+# compatibility-wrapper
 
-:do {
-    :local scriptName "update-iran-streaming-small-router"
-    :local scriptSource ":local fileName \"iran-streaming-address-list.rsc\"
-:local url \"https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/mikrotik-iran-streaming-address-list.rsc\"
-:local addressList \"iran-streaming\"
-:local backupList \"iran-streaming-backup-before-update\"
-:local minFileSize 100
-
-:do {
-    /tool fetch url=\$url dst-path=\$fileName mode=https
-} on-error={
-    :log warning \"Iran streaming update: download failed; keeping old address list\"
-    :return
-}
-
-:delay 3
-
-:if ([:len [/file find name=\$fileName]] = 0) do={
-    :log warning \"Iran streaming update: downloaded file was not found; keeping old address list\"
-    :return
-}
-
-:local fileSize [/file get \$fileName size]
-:if (\$fileSize < \$minFileSize) do={
-    :log warning \"Iran streaming update: downloaded file is too small or empty; keeping old address list\"
-    /file remove \$fileName
-    :return
-}
-
-/ip firewall address-list remove [find list=\$backupList]
-:foreach item in=[/ip firewall address-list find list=\$addressList dynamic=no] do={
-    :local address [/ip firewall address-list get \$item address]
-    :do {
-        /ip firewall address-list add list=\$backupList address=\$address
-    } on-error={}
-}
-
-/ip firewall address-list remove [find list=\$addressList]
-
-:do {
-    /import file-name=\$fileName
-} on-error={
-    :log warning \"Iran streaming update: import failed; restoring old address list\"
-    /ip firewall address-list remove [find list=\$addressList]
-    :foreach item in=[/ip firewall address-list find list=\$backupList dynamic=no] do={
-        :local address [/ip firewall address-list get \$item address]
-        :do {
-            /ip firewall address-list add list=\$addressList address=\$address
-        } on-error={}
-    }
-    /ip firewall address-list remove [find list=\$backupList]
-    /file remove \$fileName
-    :return
-}
-
-:if ([:len [/ip firewall address-list find list=\$addressList]] = 0) do={
-    :log warning \"Iran streaming update: new list has no entries; restoring old address list\"
-    /ip firewall address-list remove [find list=\$addressList]
-    :foreach item in=[/ip firewall address-list find list=\$backupList dynamic=no] do={
-        :local address [/ip firewall address-list get \$item address]
-        :do {
-            /ip firewall address-list add list=\$addressList address=\$address
-        } on-error={}
-    }
-    /ip firewall address-list remove [find list=\$backupList]
-    /file remove \$fileName
-    :return
-}
-
-/ip firewall address-list remove [find list=\$backupList]
+/system script
+:if ([:len [find name="update-iran-streaming-outbound"]] > 0) do={ remove [find name="update-iran-streaming-outbound"] }
+add dont-require-permissions=no name=update-iran-streaming-outbound owner=admin policy=read,write,policy,test source=":local fileName \"iran-streaming-outbound.rsc\"
+:local dnsBackup \"iran-streaming-dns-backup-before-update.rsc\"
+:local url \"https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/services/iran-streaming/output/list-all.rsc\"
+:local addrList \"DST-IRAN-STREAMING-TO-OUTBOUND\"
+:local minFileSize 1000
+:if ([:len [/file find name=\$fileName]] > 0) do={ /file remove \$fileName }
+:if ([:len [/file find name=\$dnsBackup]] > 0) do={ /file remove \$dnsBackup }
+:do { /ip dns static export file=\$dnsBackup where address-list=\$addrList } on-error={ :log warning \"Iran streaming outbound update: could not create DNS backup; stopping\"; :return }
+:do { /tool fetch url=\$url dst-path=\$fileName mode=https } on-error={ :log warning \"Iran streaming outbound update: download failed; keeping old DNS static rules\"; :return }
+:if ([:len [/file find name=\$fileName]] = 0) do={ :log warning \"Iran streaming outbound update: downloaded file not found; keeping old DNS static rules\"; :return }
+:local fileSize [/file get [find name=\$fileName] size]
+:if (\$fileSize < \$minFileSize) do={ :log warning (\"Iran streaming outbound update: downloaded file too small (\" . \$fileSize . \" bytes); keeping old DNS static rules\"); /file remove \$fileName; :return }
+:do { /import file-name=\$fileName } on-error={ :log error \"Iran streaming outbound update: import failed; restoring DNS backup\"; :do { /import file-name=\$dnsBackup } on-error={}; :return }
+:if ([:len [/ip dns static find address-list=\$addrList comment~\"iran-streaming:\"]] = 0) do={ :log error \"Iran streaming outbound update: DNS static list empty after import; restoring backup\"; :do { /import file-name=\$dnsBackup } on-error={}; :return }
 /file remove \$fileName
-:log info \"Iran streaming update: iran-streaming address list updated successfully\""
-
-    :if ([:len [/system script find name=$scriptName]] = 0) do={
-        /system script add name=$scriptName dont-require-permissions=no policy=read,write,policy,test source=$scriptSource comment="managed-by=mohavise-mikrotik-iran-streaming project=iran-streaming-route-list"
-    } else={
-        /system script set [/system script find name=$scriptName] dont-require-permissions=no policy=read,write,policy,test source=$scriptSource comment="managed-by=mohavise-mikrotik-iran-streaming project=iran-streaming-route-list"
-    }
-}
+:if ([:len [/file find name=\$dnsBackup]] > 0) do={ /file remove \$dnsBackup }
+:log warning \"Iran streaming outbound update: completed successfully\"
+"
