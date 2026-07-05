@@ -1,0 +1,32 @@
+# managed-by=mohavise-mikrotik-dns-policy-routing-style
+# service=iran-streaming
+# Iranian video / VOD / live streaming services, one domain per line
+
+# Saba Idea / Filimo / Aparat
+filimo.com
+aparat.com
+aparatkids.com
+televika.com
+
+# VOD platforms
+namava.ir
+imvbox.com
+
+# Live TV / sports / broadcaster platforms
+telewebion.com
+anten.ir
+lenz.ir
+tva.ir
+tv.ir
+irib.ir
+ifilmtv.ir
+
+# Iranian video sharing / archive style platforms
+tamasha.com
+shabakema.com
+mp4.ir
+namasha.com
+
+# Common media/CDN domains seen around Iranian platforms
+sabaidea.com
+sabavision.com
