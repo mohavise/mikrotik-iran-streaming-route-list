@@ -164,7 +164,6 @@ iran-streaming-domains.txt
 iran-streaming-urls.txt
 services/iran-streaming/output/list-domains.rsc
 services/iran-streaming/output/list-all.rsc
-mikrotik-iran-streaming-address-list.rsc
 ```
 
 ## Generate Manually
