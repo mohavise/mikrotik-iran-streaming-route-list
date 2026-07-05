@@ -1,4 +1,4 @@
-name: Update Filimo Lists
+name: Update Iranian Streaming Lists
 
 on:
   schedule:
@@ -19,20 +19,20 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y dnsutils jq python3
 
-      - name: Generate Filimo lists
+      - name: Generate Iranian streaming lists
         run: |
-          chmod +x scripts/build-filimo.sh
-          ./scripts/build-filimo.sh
+          chmod +x scripts/build-iran-streaming.sh
+          ./scripts/build-iran-streaming.sh
 
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add filimo-domains.txt filimo-hosts.txt filimo-urls.txt filimo-ips.txt filimo-prefixes.txt mikrotik-filimo-address-list.rsc
+          git add iran-streaming-domains.txt iran-streaming-hosts.txt iran-streaming-urls.txt iran-streaming-ips.txt iran-streaming-prefixes.txt mikrotik-iran-streaming-address-list.rsc
 
           if git diff --cached --quiet; then
-            echo "No Filimo list changes"
+            echo "No Iranian streaming list changes"
           else
-            git commit -m "Automatic Filimo route list update"
+            git commit -m "Automatic Iranian streaming route list update"
             git push
           fi
