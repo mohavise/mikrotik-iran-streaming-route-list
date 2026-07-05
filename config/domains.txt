@@ -1,6 +1,6 @@
-# Iranian video / VOD / live streaming services
-# One domain per line. The builder discovers common subdomains, CT names,
-# public urlscan observations, page links, DNS A records, and MikroTik FQDN entries.
+# Compatibility source for Iranian video / VOD / live streaming services
+# Main database lives in: services/iran-streaming/database/domains.txt
+# One domain per line. No IP list is generated; outputs are MikroTik DNS static FWD rules.
 
 # Saba Idea / Filimo / Aparat
 filimo.com
