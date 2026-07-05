@@ -1,12 +1,13 @@
-# managed-by=mohavise-mikrotik-iran-streaming
+# managed-by=mohavise-iran-streaming-route-list
 # project=iran-streaming-route-list
-# do-not-edit-manually
+# service=iran-streaming
+# installer=safe-install-iran-streaming-outbound
 
 :do {
-    :local updateUrl "https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/update-iran-streaming-small-router.rsc"
-    :local schedulerUrl "https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/scheduler-update-iran-streaming-small-router.rsc"
-    :local updateFile "update-iran-streaming-small-router.rsc"
-    :local schedulerFile "scheduler-update-iran-streaming-small-router.rsc"
+    :local updateUrl "https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/services/iran-streaming/routeros/update.rsc"
+    :local schedulerUrl "https://raw.githubusercontent.com/mohavise/iran-streaming-route-list/main/services/iran-streaming/routeros/scheduler.rsc"
+    :local updateFile "update-iran-streaming-outbound.rsc"
+    :local schedulerFile "scheduler-update-iran-streaming-outbound.rsc"
 
     /tool fetch url=$updateUrl dst-path=$updateFile mode=https
     /import file-name=$updateFile
@@ -16,5 +17,5 @@
     /import file-name=$schedulerFile
     /file remove [find name=$schedulerFile]
 
-    /system script run update-iran-streaming-small-router
+    /system script run update-iran-streaming-outbound
 }
