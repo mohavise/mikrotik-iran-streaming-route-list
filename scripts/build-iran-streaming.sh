@@ -10,7 +10,6 @@ URLS_FILE="$ROOT_DIR/iran-streaming-urls.txt"
 OUT_DIR="$ROOT_DIR/services/$SERVICE/output"
 LIST_DOMAINS="$OUT_DIR/list-domains.rsc"
 LIST_ALL="$OUT_DIR/list-all.rsc"
-ROOT_COMPAT="$ROOT_DIR/mikrotik-iran-streaming-address-list.rsc"
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
 
@@ -75,7 +74,6 @@ mv "$TMP_DIR/domains" "$DOMAINS_FILE"
 } > "$LIST_DOMAINS"
 
 cp "$LIST_DOMAINS" "$LIST_ALL"
-cp "$LIST_DOMAINS" "$ROOT_COMPAT"
 
 echo "domains: $(wc -l < "$DOMAINS_FILE")"
 echo "output: $LIST_ALL"
