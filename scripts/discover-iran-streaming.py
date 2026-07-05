@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parents[1]
 SERVICE_DIR = ROOT_DIR / "services" / "iran-streaming"
 DATABASE_FILE = SERVICE_DIR / "database" / "domains.txt"
-USER_AGENT = "iran-streaming-route-list/1.0"
+USER_AGENT = "mikrotik-iran-streaming-route-list/1.0"
 
 COMMON_HOSTS = (
     "account", "api", "app", "asset", "assets", "auth", "cdn", "cdn1", "cdn2", "cdn3",
