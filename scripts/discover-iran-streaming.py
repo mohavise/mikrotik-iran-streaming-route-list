@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import json
+import os
 import re
 import sys
 import urllib.parse
 import urllib.request
+from collections import Counter
 from pathlib import Path
 
 
@@ -11,6 +13,15 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 SERVICE_DIR = ROOT_DIR / "services" / "iran-streaming"
 DATABASE_FILE = SERVICE_DIR / "database" / "domains.txt"
 USER_AGENT = "mikrotik-iran-streaming-route-list/1.0"
+
+# Manual/database domains are the primary source.
+# Public discovery sources are optional enrichment only.
+CRT_TIMEOUT = int(os.getenv("IRAN_STREAMING_CRT_TIMEOUT", "8"))
+URLSCAN_TIMEOUT = int(os.getenv("IRAN_STREAMING_URLSCAN_TIMEOUT", "8"))
+PAGE_TIMEOUT = int(os.getenv("IRAN_STREAMING_PAGE_TIMEOUT", "8"))
+ENABLE_CRTSH = os.getenv("IRAN_STREAMING_ENABLE_CRTSH", "1") != "0"
+ENABLE_URLSCAN = os.getenv("IRAN_STREAMING_ENABLE_URLSCAN", "1") != "0"
+ENABLE_PAGE_CRAWL = os.getenv("IRAN_STREAMING_ENABLE_PAGE_CRAWL", "1") != "0"
 
 COMMON_HOSTS = (
     "account", "api", "app", "asset", "assets", "auth", "cdn", "cdn1", "cdn2", "cdn3",
@@ -20,11 +31,17 @@ COMMON_HOSTS = (
 )
 
 URL_RE = re.compile(r"""(?i)\bhttps?://[^\s\"'<>\\]+""")
+WARNINGS = Counter()
 
 
-def fetch_text(url):
+def warn(kind, message):
+    WARNINGS[kind] += 1
+    print(f"warning: {message}", file=sys.stderr)
+
+
+def fetch_text(url, timeout):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as response:
+    with urllib.request.urlopen(req, timeout=timeout) as response:
         return response.read().decode("utf-8", "replace")
 
 
@@ -86,12 +103,16 @@ def load_seed_hosts(hosts):
 
 
 def load_crtsh(hosts):
+    if not ENABLE_CRTSH:
+        warn("crt.sh-disabled", "crt.sh discovery disabled by IRAN_STREAMING_ENABLE_CRTSH=0")
+        return
+
     for root in ROOT_DOMAINS:
         url = f"https://crt.sh/?q=%25.{urllib.parse.quote(root)}&output=json"
         try:
-            data = json.loads(fetch_text(url))
+            data = json.loads(fetch_text(url, CRT_TIMEOUT))
         except Exception as exc:
-            print(f"warning: crt.sh failed for {root}: {exc}", file=sys.stderr)
+            warn("crt.sh", f"crt.sh failed for {root}: {exc}")
             continue
         for item in data:
             add_hosts_from_text(hosts, item.get("name_value", ""))
@@ -99,12 +120,16 @@ def load_crtsh(hosts):
 
 
 def load_urlscan(hosts, urls):
+    if not ENABLE_URLSCAN:
+        warn("urlscan-disabled", "urlscan discovery disabled by IRAN_STREAMING_ENABLE_URLSCAN=0")
+        return
+
     for root in ROOT_DOMAINS:
         api_url = f"https://urlscan.io/api/v1/search/?q=domain:{urllib.parse.quote(root)}&size=100"
         try:
-            data = json.loads(fetch_text(api_url))
+            data = json.loads(fetch_text(api_url, URLSCAN_TIMEOUT))
         except Exception as exc:
-            print(f"warning: urlscan failed for {root}: {exc}", file=sys.stderr)
+            warn("urlscan", f"urlscan failed for {root}: {exc}")
             continue
         for result in data.get("results", []):
             for section_name in ("task", "page"):
@@ -114,11 +139,15 @@ def load_urlscan(hosts, urls):
 
 
 def crawl_seed_pages(hosts, urls):
+    if not ENABLE_PAGE_CRAWL:
+        warn("page-fetch-disabled", "page discovery disabled by IRAN_STREAMING_ENABLE_PAGE_CRAWL=0")
+        return
+
     for url in SEED_URLS:
         try:
-            text = fetch_text(url)
+            text = fetch_text(url, PAGE_TIMEOUT)
         except Exception as exc:
-            print(f"warning: page fetch failed for {url}: {exc}", file=sys.stderr)
+            warn("page-fetch", f"page fetch failed for {url}: {exc}")
             continue
         add_hosts_from_text(hosts, text)
         add_urls_from_text(urls, hosts, text)
@@ -126,6 +155,16 @@ def crawl_seed_pages(hosts, urls):
 
 def write_lines(path, values):
     path.write_text("".join(f"{value}\n" for value in sorted(values)), encoding="utf-8")
+
+
+def print_warning_summary():
+    if not WARNINGS:
+        print("warning-summary: none")
+        return
+
+    print("warning-summary:", file=sys.stderr)
+    for kind, count in sorted(WARNINGS.items()):
+        print(f"warning-summary: {kind}={count}", file=sys.stderr)
 
 
 def main():
@@ -144,6 +183,7 @@ def main():
 
     print(f"domains: {len(hosts)}")
     print(f"urls: {len(urls | host_urls)}")
+    print_warning_summary()
 
 
 if __name__ == "__main__":
