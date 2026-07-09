@@ -18,9 +18,6 @@ account.televika.com
 account.telewebion.com
 account.tv.ir
 account.tva.ir
-adc1.irib.ir
-adc2.irib.ir
-adc3.irib.ir
 anten.ir
 aparat.com
 aparatkids.com
@@ -127,15 +124,12 @@ auth.tv.ir
 auth.tva.ir
 bazargani.irib.ir
 blog.aparat.com
-blog.aparatkids.com
-blog.namava.ir
 blog.sabavision.com
 cdn-live.irib.ir
 cdn.anten.ir
 cdn.aparat.com
 cdn.aparatkids.com
 cdn.asset.aparat.com
-cdn.asset.aparatkids.com
 cdn.asset2.aparat.com
 cdn.filimo.com
 cdn.ifilmtv.ir
@@ -211,7 +205,6 @@ cdn3.telewebion.com
 cdn3.tv.ir
 cdn3.tva.ir
 cloob-api.anten.ir
-demo.mp4.ir
 dl.anten.ir
 dl.aparat.com
 dl.aparatkids.com
@@ -231,13 +224,6 @@ dl.televika.com
 dl.telewebion.com
 dl.tv.ir
 dl.tva.ir
-dl10.mp4.ir
-dl11.mp4.ir
-dl12.mp4.ir
-dl15.mp4.ir
-dl16.mp4.ir
-dl24.mp4.ir
-dl8.mp4.ir
 docker-registry.asset.aparat.com
 download.anten.ir
 download.aparat.com
@@ -300,7 +286,6 @@ event.tv.ir
 event.tva.ir
 fa.ifilmtv.ir
 fa2.ifilmtv.ir
-fani-app.irib.ir
 fars.asset.aparat.com
 filimo.com
 french.irib.ir
@@ -382,13 +367,11 @@ img.televika.com
 img.telewebion.com
 img.tv.ir
 img.tva.ir
-imrl.arc.irib.ir
 imvbox.com
 income.aparat.com
 irib.ir
 japanese.irib.ir
 job.sabaidea.com
-landing.aparatkids.com
 lenz.ir
 link-s2g.aparat.com
 link.aparat.com
@@ -435,7 +418,6 @@ log.telewebion.com
 log.tv.ir
 log.tva.ir
 logstream.aparat.com
-ls2.mp4.ir
 m.anten.ir
 m.aparat.com
 m.aparatkids.com
@@ -455,7 +437,6 @@ m.televika.com
 m.telewebion.com
 m.tv.ir
 m.tva.ir
-mail.mp4.ir
 mashhad.asset.aparat.com
 media.anten.ir
 media.aparat.com
@@ -497,14 +478,10 @@ mobile.telewebion.com
 mobile.tv.ir
 mobile.tva.ir
 mp4.ir
-msx-live.namava.ir
-msx.namava.ir
 namasha.com
 namava.ir
 new.imvbox.com
-norouz.namava.ir
 npm-registry.asset.aparat.com
-offers.namava.ir
 paralympic.telewebion.com
 payment.anten.ir
 payment.aparat.com
@@ -587,7 +564,6 @@ s.televika.com
 s.telewebion.com
 s.tv.ir
 s.tva.ir
-s11.namasha.com
 s43.namasha.com
 s44.namasha.com
 s45.namasha.com
@@ -620,8 +596,6 @@ search.telewebion.com
 search.tv.ir
 search.tva.ir
 sepehr.irib.ir
-sepehrapi.irib.ir
-sepehrstb.irib.ir
 shabakema.com
 signin.irib.ir
 simacdn1.irib.ir
@@ -727,7 +701,6 @@ stream.telewebion.com
 stream.tv.ir
 stream.tva.ir
 streaming.imvbox.com
-stv.irib.ir
 support.aparat.com
 support.aparatkids.com
 support.televika.com
@@ -736,7 +709,6 @@ tamasha.com
 tehran16-shatel-edge.anten.ir
 televika.com
 telewebion.com
-test.ca.irib.ir
 tv.anten.ir
 tv.aparat.com
 tv.aparatkids.com
@@ -758,7 +730,6 @@ tv.telewebion.com
 tv.tv.ir
 tv.tva.ir
 tva.ir
-u.namava.ir
 upload.anten.ir
 upload.aparat.com
 upload.aparatkids.com
@@ -816,8 +787,6 @@ vod.televika.com
 vod.telewebion.com
 vod.tv.ir
 vod.tva.ir
-website-staging.imvbox.com
-ws.namava.ir
 www.anten.ir
 www.aparat.com
 www.aparatkids.com
@@ -831,7 +800,6 @@ www.lenz.ir
 www.mp4.ir
 www.namasha.com
 www.namava.ir
-www.new.imvbox.com
 www.qazvin.irib.ir
 www.sabaidea.com
 www.sabavision.com
@@ -842,6 +810,4 @@ www.telewebion.com
 www.tv.ir
 www.tva.ir
 www.urmia.irib.ir
-www.www3.live.irib.ir
-www3.live.irib.ir
 yasouj.irib.ir
