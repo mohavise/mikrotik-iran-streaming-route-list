@@ -374,7 +374,6 @@ https://lenz.ir/
 https://live.anten.ir/
 https://live.aparat.com/
 https://live.aparatkids.com/
-https://live.api.anten.ir/
 https://live.asset.televika.com/
 https://live.cdn.asset.filimo.com/
 https://live.filimo.com/
@@ -432,6 +431,7 @@ https://m.televika.com/
 https://m.telewebion.com/
 https://m.tv.ir/
 https://m.tva.ir/
+https://mail.anten.ir/
 https://media.anten.ir/
 https://media.aparat.com/
 https://media.aparatkids.com/
@@ -471,6 +471,7 @@ https://mobile.televika.com/
 https://mobile.telewebion.com/
 https://mobile.tv.ir/
 https://mobile.tva.ir/
+https://monazereh.anten.ir/
 https://mp4.ir/
 https://msx-live.namava.ir/
 https://msx.namava.ir/
@@ -560,6 +561,7 @@ https://s.televika.com/
 https://s.telewebion.com/
 https://s.tv.ir/
 https://s.tva.ir/
+https://s1-arvan-edge.anten.ir/
 https://s43.namasha.com/
 https://s44.namasha.com/
 https://s45.namasha.com/
@@ -695,9 +697,10 @@ https://streaming.imvbox.com/
 https://support.aparatkids.com/
 https://support.televika.com/
 https://tamasha.com/
-https://tehran16-shatel-edge.anten.ir/
+https://tehran01.shatel.edge.anten.ir/
 https://televika.com/
 https://telewebion.com/
+https://tools.anten.ir/
 https://tv.anten.ir/
 https://tv.aparat.com/
 https://tv.aparatkids.com/
@@ -778,7 +781,6 @@ https://vod.telewebion.com/
 https://vod.tv.ir/
 https://vod.tva.ir/
 https://ws.namava.ir/
-https://ww547.shabakema.com/
 https://www.anten.ir/
 https://www.aparat.com/
 https://www.aparatkids.com/
