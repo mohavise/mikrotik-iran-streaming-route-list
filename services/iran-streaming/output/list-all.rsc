@@ -130,12 +130,16 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)auth\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:auth.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)auth\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:auth.tva.ir" } on-error={}
 :do { add regexp="(^|.*\.)bazargani\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:bazargani.irib.ir" } on-error={}
+:do { add regexp="(^|.*\.)blog\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:blog.aparat.com" } on-error={}
+:do { add regexp="(^|.*\.)blog\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:blog.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)blog\.namava\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:blog.namava.ir" } on-error={}
 :do { add regexp="(^|.*\.)blog\.sabavision\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:blog.sabavision.com" } on-error={}
+:do { add regexp="(^|.*\.)blog2\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:blog2.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)cdn-live\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn-live.irib.ir" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.aparat.com" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.aparatkids\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.aparatkids.com" } on-error={}
+:do { add regexp="(^|.*\.)cdn\.asset\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.asset.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.ifilmtv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.ifilmtv.ir" } on-error={}
 :do { add regexp="(^|.*\.)cdn\.imvbox\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:cdn.imvbox.com" } on-error={}
@@ -270,6 +274,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)edge\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:edge.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)edge\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:edge.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)edge\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:edge.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)email\.mg\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:email.mg.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)en\.ifilmtv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:en.ifilmtv.ir" } on-error={}
 :do { add regexp="(^|.*\.)entertainment-api\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:entertainment-api.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)event\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:event.anten.ir" } on-error={}
@@ -314,6 +319,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)gateway\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:gateway.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)gateway\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:gateway.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)gateway\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:gateway.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)help\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:help.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)ifilmtv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:ifilmtv.ir" } on-error={}
 :do { add regexp="(^|.*\.)image\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:image.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)image\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:image.aparat.com" } on-error={}
@@ -378,6 +384,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)job\.sabaidea\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:job.sabaidea.com" } on-error={}
 :do { add regexp="(^|.*\.)kids\.mp4\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:kids.mp4.ir" } on-error={}
 :do { add regexp="(^|.*\.)lenz\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:lenz.ir" } on-error={}
+:do { add regexp="(^|.*\.)link-s2g\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:link-s2g.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)live\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:live.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)live\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:live.aparat.com" } on-error={}
 :do { add regexp="(^|.*\.)live\.aparatkids\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:live.aparatkids.com" } on-error={}
@@ -439,6 +446,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)m\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:m.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)m\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:m.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)m\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:m.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)mail\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:mail.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)media\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:media.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)media\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:media.aparat.com" } on-error={}
 :do { add regexp="(^|.*\.)media\.aparatkids\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:media.aparatkids.com" } on-error={}
@@ -478,6 +486,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)mobile\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:mobile.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)mobile\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:mobile.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)mobile\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:mobile.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)monazereh\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:monazereh.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)mp4\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:mp4.ir" } on-error={}
 :do { add regexp="(^|.*\.)msx-live\.namava\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:msx-live.namava.ir" } on-error={}
 :do { add regexp="(^|.*\.)msx\.namava\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:msx.namava.ir" } on-error={}
@@ -545,6 +554,8 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)player\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:player.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)player\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:player.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)player\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:player.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)qa\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:qa.filimo.com" } on-error={}
+:do { add regexp="(^|.*\.)quiz\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:quiz.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)r\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:r.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)s-cloud\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s-cloud.irib.ir" } on-error={}
 :do { add regexp="(^|.*\.)s-v4\.tamasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s-v4.tamasha.com" } on-error={}
@@ -567,10 +578,13 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)s\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s.telewebion.com" } on-error={}
 :do { add regexp="(^|.*\.)s\.tv\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s.tv.ir" } on-error={}
 :do { add regexp="(^|.*\.)s\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s.tva.ir" } on-error={}
+:do { add regexp="(^|.*\.)s1-arvan-edge\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s1-arvan-edge.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)s43\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s43.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s44\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s44.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s45\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s45.namasha.com" } on-error={}
+:do { add regexp="(^|.*\.)s46\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s46.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s47\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s47.namasha.com" } on-error={}
+:do { add regexp="(^|.*\.)s48\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s48.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s50\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s50.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s51\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s51.namasha.com" } on-error={}
 :do { add regexp="(^|.*\.)s52\.namasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:s52.namasha.com" } on-error={}
@@ -597,6 +611,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)search\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:search.tva.ir" } on-error={}
 :do { add regexp="(^|.*\.)sepehr\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:sepehr.irib.ir" } on-error={}
 :do { add regexp="(^|.*\.)shabakema\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:shabakema.com" } on-error={}
+:do { add regexp="(^|.*\.)shot\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:shot.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)signin\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:signin.irib.ir" } on-error={}
 :do { add regexp="(^|.*\.)simacdn1\.irib\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:simacdn1.irib.ir" } on-error={}
 :do { add regexp="(^|.*\.)socket\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:socket.anten.ir" } on-error={}
@@ -700,11 +715,14 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)stream\.tva\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:stream.tva.ir" } on-error={}
 :do { add regexp="(^|.*\.)streaming\.imvbox\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:streaming.imvbox.com" } on-error={}
 :do { add regexp="(^|.*\.)support\.aparatkids\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:support.aparatkids.com" } on-error={}
+:do { add regexp="(^|.*\.)support\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:support.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)support\.televika\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:support.televika.com" } on-error={}
 :do { add regexp="(^|.*\.)tamasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tamasha.com" } on-error={}
+:do { add regexp="(^|.*\.)tehran01\.shatel\.edge\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tehran01.shatel.edge.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)tehran16-shatel-edge\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tehran16-shatel-edge.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)televika\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:televika.com" } on-error={}
 :do { add regexp="(^|.*\.)telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:telewebion.com" } on-error={}
+:do { add regexp="(^|.*\.)tools\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tools.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)tv\.anten\.ir\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tv.anten.ir" } on-error={}
 :do { add regexp="(^|.*\.)tv\.aparat\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tv.aparat.com" } on-error={}
 :do { add regexp="(^|.*\.)tv\.aparatkids\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:tv.aparatkids.com" } on-error={}
@@ -803,6 +821,7 @@ remove [find address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment~"iran-streaming
 :do { add regexp="(^|.*\.)www\.sabaidea\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.sabaidea.com" } on-error={}
 :do { add regexp="(^|.*\.)www\.sabavision\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.sabavision.com" } on-error={}
 :do { add regexp="(^|.*\.)www\.shabakema\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.shabakema.com" } on-error={}
+:do { add regexp="(^|.*\.)www\.shot\.filimo\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.shot.filimo.com" } on-error={}
 :do { add regexp="(^|.*\.)www\.tamasha\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.tamasha.com" } on-error={}
 :do { add regexp="(^|.*\.)www\.televika\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.televika.com" } on-error={}
 :do { add regexp="(^|.*\.)www\.telewebion\.com\$" type=FWD address-list=DST-IRAN-STREAMING-TO-OUTBOUND comment="iran-streaming:www.telewebion.com" } on-error={}
