@@ -541,7 +541,6 @@ player.tva.ir
 plus.sabavision.com
 r.filimo.com
 s-cloud.irib.ir
-s-v4.tamasha.com
 s.anten.ir
 s.aparat.com
 s.aparatkids.com
@@ -615,7 +614,6 @@ static.televika.com
 static.telewebion.com
 static.tv.ir
 static.tva.ir
-static01.farakav.varzesh3.tamasha.com
 static1.anten.ir
 static1.aparat.com
 static1.aparatkids.com

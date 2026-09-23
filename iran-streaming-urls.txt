@@ -541,7 +541,6 @@ https://player.tva.ir/
 https://plus.sabavision.com/
 https://r.filimo.com/
 https://s-cloud.irib.ir/
-https://s-v4.tamasha.com/
 https://s.anten.ir/
 https://s.aparat.com/
 https://s.aparatkids.com/
@@ -615,7 +614,6 @@ https://static.televika.com/
 https://static.telewebion.com/
 https://static.tv.ir/
 https://static.tva.ir/
-https://static01.farakav.varzesh3.tamasha.com/
 https://static1.anten.ir/
 https://static1.aparat.com/
 https://static1.aparatkids.com/
