@@ -744,6 +744,7 @@ vod.televika.com
 vod.telewebion.com
 vod.tv.ir
 vod.tva.ir
+website-staging.imvbox.com
 www.anten.ir
 www.aparat.com
 www.aparatkids.com
@@ -755,6 +756,7 @@ www.lenz.ir
 www.mp4.ir
 www.namasha.com
 www.namava.ir
+www.new.imvbox.com
 www.sabaidea.com
 www.sabavision.com
 www.shabakema.com

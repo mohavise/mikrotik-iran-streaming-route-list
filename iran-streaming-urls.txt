@@ -744,6 +744,7 @@ https://vod.televika.com/
 https://vod.telewebion.com/
 https://vod.tv.ir/
 https://vod.tva.ir/
+https://website-staging.imvbox.com/
 https://www.anten.ir/
 https://www.aparat.com/
 https://www.aparatkids.com/
@@ -755,6 +756,7 @@ https://www.lenz.ir/
 https://www.mp4.ir/
 https://www.namasha.com/
 https://www.namava.ir/
+https://www.new.imvbox.com/
 https://www.sabaidea.com/
 https://www.sabavision.com/
 https://www.shabakema.com/
