@@ -119,10 +119,14 @@ https://auth.televika.com/
 https://auth.telewebion.com/
 https://auth.tv.ir/
 https://auth.tva.ir/
+https://blog.aparat.com/
+https://blog.filimo.com/
 https://blog.sabavision.com/
+https://blog2.filimo.com/
 https://cdn.anten.ir/
 https://cdn.aparat.com/
 https://cdn.aparatkids.com/
+https://cdn.asset.filimo.com/
 https://cdn.filimo.com/
 https://cdn.ifilmtv.ir/
 https://cdn.imvbox.com/
@@ -254,6 +258,7 @@ https://edge.televika.com/
 https://edge.telewebion.com/
 https://edge.tv.ir/
 https://edge.tva.ir/
+https://email.mg.filimo.com/
 https://entertainment-api.anten.ir/
 https://event.anten.ir/
 https://event.aparat.com/
@@ -294,6 +299,7 @@ https://gateway.televika.com/
 https://gateway.telewebion.com/
 https://gateway.tv.ir/
 https://gateway.tva.ir/
+https://help.filimo.com/
 https://ifilmtv.ir/
 https://image.anten.ir/
 https://image.aparat.com/
@@ -357,6 +363,7 @@ https://irib.ir/
 https://job.sabaidea.com/
 https://kids.mp4.ir/
 https://lenz.ir/
+https://link-s2g.filimo.com/
 https://live.anten.ir/
 https://live.aparat.com/
 https://live.aparatkids.com/
@@ -516,6 +523,8 @@ https://player.telewebion.com/
 https://player.tv.ir/
 https://player.tva.ir/
 https://plus.sabavision.com/
+https://qa.filimo.com/
+https://quiz.filimo.com/
 https://s.anten.ir/
 https://s.aparat.com/
 https://s.aparatkids.com/
@@ -564,6 +573,7 @@ https://search.telewebion.com/
 https://search.tv.ir/
 https://search.tva.ir/
 https://shabakema.com/
+https://shot.filimo.com/
 https://socket.anten.ir/
 https://static.anten.ir/
 https://static.aparat.com/
@@ -663,6 +673,7 @@ https://stream.telewebion.com/
 https://stream.tv.ir/
 https://stream.tva.ir/
 https://streaming.imvbox.com/
+https://support.filimo.com/
 https://tamasha.com/
 https://televika.com/
 https://telewebion.com/
@@ -744,7 +755,6 @@ https://vod.televika.com/
 https://vod.telewebion.com/
 https://vod.tv.ir/
 https://vod.tva.ir/
-https://website-staging.imvbox.com/
 https://www.anten.ir/
 https://www.aparat.com/
 https://www.aparatkids.com/
@@ -756,10 +766,10 @@ https://www.lenz.ir/
 https://www.mp4.ir/
 https://www.namasha.com/
 https://www.namava.ir/
-https://www.new.imvbox.com/
 https://www.sabaidea.com/
 https://www.sabavision.com/
 https://www.shabakema.com/
+https://www.shot.filimo.com/
 https://www.tamasha.com/
 https://www.televika.com/
 https://www.telewebion.com/
