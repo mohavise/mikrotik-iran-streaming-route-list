@@ -59,6 +59,7 @@ https://app.televika.com/
 https://app.telewebion.com/
 https://app.tv.ir/
 https://app.tva.ir/
+https://ar.ifilmtv.ir/
 https://as-v1.tamasha.com/
 https://as-v2.tamasha.com/
 https://as-v5.tamasha.com/
@@ -254,6 +255,7 @@ https://edge.televika.com/
 https://edge.telewebion.com/
 https://edge.tv.ir/
 https://edge.tva.ir/
+https://en.ifilmtv.ir/
 https://entertainment-api.anten.ir/
 https://event.anten.ir/
 https://event.aparat.com/
@@ -274,6 +276,8 @@ https://event.televika.com/
 https://event.telewebion.com/
 https://event.tv.ir/
 https://event.tva.ir/
+https://fa.ifilmtv.ir/
+https://fa2.ifilmtv.ir/
 https://filimo.com/
 https://gateway.anten.ir/
 https://gateway.aparat.com/
