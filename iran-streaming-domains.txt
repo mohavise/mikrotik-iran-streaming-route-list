@@ -519,7 +519,6 @@ player.televika.com
 player.telewebion.com
 player.tv.ir
 player.tva.ir
-plus.sabavision.com
 s.anten.ir
 s.aparat.com
 s.aparatkids.com
