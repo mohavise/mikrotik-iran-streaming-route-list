@@ -120,6 +120,7 @@ https://auth.televika.com/
 https://auth.telewebion.com/
 https://auth.tv.ir/
 https://auth.tva.ir/
+https://blog.sabavision.com/
 https://cdn.anten.ir/
 https://cdn.aparat.com/
 https://cdn.aparatkids.com/
@@ -357,11 +358,13 @@ https://img.tv.ir/
 https://img.tva.ir/
 https://imvbox.com/
 https://irib.ir/
+https://job.sabaidea.com/
 https://kids.mp4.ir/
 https://lenz.ir/
 https://live.anten.ir/
 https://live.aparat.com/
 https://live.aparatkids.com/
+https://live.cdn.asset.filimo.com/
 https://live.filimo.com/
 https://live.ifilmtv.ir/
 https://live.imvbox.com/
@@ -568,6 +571,7 @@ https://socket.anten.ir/
 https://static.anten.ir/
 https://static.aparat.com/
 https://static.aparatkids.com/
+https://static.cdn.asset.filimo.com/
 https://static.filimo.com/
 https://static.ifilmtv.ir/
 https://static.imvbox.com/
