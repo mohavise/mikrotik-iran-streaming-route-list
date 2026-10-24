@@ -82,7 +82,6 @@ https://asset.televika.com/
 https://asset.telewebion.com/
 https://asset.tv.ir/
 https://asset.tva.ir/
-https://asset2.aparat.com/
 https://assets.anten.ir/
 https://assets.aparat.com/
 https://assets.aparatkids.com/
@@ -121,18 +120,10 @@ https://auth.televika.com/
 https://auth.telewebion.com/
 https://auth.tv.ir/
 https://auth.tva.ir/
-https://blog.aparat.com/
-https://blog.aparatkids.com/
-https://blog.filimo.com/
 https://blog.sabavision.com/
-https://blog2.filimo.com/
 https://cdn.anten.ir/
 https://cdn.aparat.com/
 https://cdn.aparatkids.com/
-https://cdn.asset.aparat.com/
-https://cdn.asset.aparatkids.com/
-https://cdn.asset.filimo.com/
-https://cdn.asset2.aparat.com/
 https://cdn.filimo.com/
 https://cdn.ifilmtv.ir/
 https://cdn.imvbox.com/
@@ -232,7 +223,6 @@ https://dl12.mp4.ir/
 https://dl15.mp4.ir/
 https://dl16.mp4.ir/
 https://dl24.mp4.ir/
-https://docker-registry.asset.aparat.com/
 https://download.anten.ir/
 https://download.aparat.com/
 https://download.aparatkids.com/
@@ -271,7 +261,6 @@ https://edge.televika.com/
 https://edge.telewebion.com/
 https://edge.tv.ir/
 https://edge.tva.ir/
-https://email.mg.filimo.com/
 https://en.ifilmtv.ir/
 https://entertainment-api.anten.ir/
 https://event.anten.ir/
@@ -295,7 +284,6 @@ https://event.tv.ir/
 https://event.tva.ir/
 https://fa.ifilmtv.ir/
 https://fa2.ifilmtv.ir/
-https://fars.asset.aparat.com/
 https://filimo.com/
 https://gateway.anten.ir/
 https://gateway.aparat.com/
@@ -316,8 +304,6 @@ https://gateway.televika.com/
 https://gateway.telewebion.com/
 https://gateway.tv.ir/
 https://gateway.tva.ir/
-https://help.aparat.com/
-https://help.filimo.com/
 https://ifilmtv.ir/
 https://image.anten.ir/
 https://image.aparat.com/
@@ -377,17 +363,10 @@ https://img.telewebion.com/
 https://img.tv.ir/
 https://img.tva.ir/
 https://imvbox.com/
-https://income.aparat.com/
 https://irib.ir/
 https://job.sabaidea.com/
 https://kids.mp4.ir/
-https://landing.aparatkids.com/
 https://lenz.ir/
-https://link-s2g.aparat.com/
-https://link-s2g.aparatkids.com/
-https://link-s2g.filimo.com/
-https://link.aparat.com/
-https://links.emails.aparat.com/
 https://live.anten.ir/
 https://live.aparat.com/
 https://live.aparatkids.com/
@@ -427,7 +406,6 @@ https://log.televika.com/
 https://log.telewebion.com/
 https://log.tv.ir/
 https://log.tva.ir/
-https://logstream.aparat.com/
 https://m.anten.ir/
 https://m.aparat.com/
 https://m.aparatkids.com/
@@ -448,7 +426,6 @@ https://m.telewebion.com/
 https://m.tv.ir/
 https://m.tva.ir/
 https://mail.mp4.ir/
-https://mashhad.asset.aparat.com/
 https://media.anten.ir/
 https://media.aparat.com/
 https://media.aparatkids.com/
@@ -491,7 +468,6 @@ https://mp4.ir/
 https://namasha.com/
 https://namava.ir/
 https://new.imvbox.com/
-https://npm-registry.asset.aparat.com/
 https://payment.anten.ir/
 https://payment.aparat.com/
 https://payment.aparatkids.com/
@@ -550,10 +526,6 @@ https://player.televika.com/
 https://player.telewebion.com/
 https://player.tv.ir/
 https://player.tva.ir/
-https://qa.aparat.com/
-https://qa.filimo.com/
-https://quiz.filimo.com/
-https://rtl.asset.aparat.com/
 https://s.anten.ir/
 https://s.aparat.com/
 https://s.aparatkids.com/
@@ -602,12 +574,10 @@ https://search.telewebion.com/
 https://search.tv.ir/
 https://search.tva.ir/
 https://shabakema.com/
-https://shot.filimo.com/
 https://socket.anten.ir/
 https://static.anten.ir/
 https://static.aparat.com/
 https://static.aparatkids.com/
-https://static.asset.aparat.com/
 https://static.cdn.asset.filimo.com/
 https://static.filimo.com/
 https://static.ifilmtv.ir/
@@ -703,10 +673,6 @@ https://stream.telewebion.com/
 https://stream.tv.ir/
 https://stream.tva.ir/
 https://streaming.imvbox.com/
-https://support.aparat.com/
-https://support.aparatkids.com/
-https://support.filimo.com/
-https://tabriz.asset.aparat.com/
 https://tamasha.com/
 https://televika.com/
 https://telewebion.com/
@@ -805,7 +771,6 @@ https://www.new.imvbox.com/
 https://www.sabaidea.com/
 https://www.sabavision.com/
 https://www.shabakema.com/
-https://www.shot.filimo.com/
 https://www.tamasha.com/
 https://www.televika.com/
 https://www.telewebion.com/
