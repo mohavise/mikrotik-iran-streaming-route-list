@@ -17,9 +17,6 @@ account.televika.com
 account.telewebion.com
 account.tv.ir
 account.tva.ir
-adc1.irib.ir
-adc2.irib.ir
-adc3.irib.ir
 anten.ir
 aparat.com
 aparatkids.com
@@ -63,9 +60,6 @@ app.telewebion.com
 app.tv.ir
 app.tva.ir
 ar.ifilmtv.ir
-as-v1.tamasha.com
-as-v2.tamasha.com
-as-v5.tamasha.com
 asset.anten.ir
 asset.aparat.com
 asset.aparatkids.com
@@ -123,9 +117,7 @@ auth.televika.com
 auth.telewebion.com
 auth.tv.ir
 auth.tva.ir
-blog.aparat.com
 blog.sabavision.com
-cafe.sabaidea.com
 cdn.anten.ir
 cdn.aparat.com
 cdn.aparatkids.com
@@ -260,7 +252,6 @@ edge.televika.com
 edge.telewebion.com
 edge.tv.ir
 edge.tva.ir
-edu.sabaidea.com
 en.ifilmtv.ir
 entertainment-api.anten.ir
 event.anten.ir
@@ -284,8 +275,6 @@ event.tv.ir
 event.tva.ir
 fa.ifilmtv.ir
 fa2.ifilmtv.ir
-fani-app.irib.ir
-fifa2022.sabaidea.com
 filimo.com
 gateway.anten.ir
 gateway.aparat.com
@@ -364,7 +353,6 @@ img.televika.com
 img.telewebion.com
 img.tv.ir
 img.tva.ir
-imrl.arc.irib.ir
 imvbox.com
 irib.ir
 job.sabaidea.com
@@ -467,11 +455,9 @@ mobile.telewebion.com
 mobile.tv.ir
 mobile.tva.ir
 mp4.ir
-my.sabaidea.com
 namasha.com
 namava.ir
 new.imvbox.com
-orbit.sabaidea.com
 payment.anten.ir
 payment.aparat.com
 payment.aparatkids.com
@@ -577,8 +563,6 @@ search.televika.com
 search.telewebion.com
 search.tv.ir
 search.tva.ir
-sepehrapi.irib.ir
-sepehrstb.irib.ir
 shabakema.com
 socket.anten.ir
 static.anten.ir
@@ -679,11 +663,9 @@ stream.telewebion.com
 stream.tv.ir
 stream.tva.ir
 streaming.imvbox.com
-stv.irib.ir
 tamasha.com
 televika.com
 telewebion.com
-test.ca.irib.ir
 tv.anten.ir
 tv.aparat.com
 tv.aparatkids.com
@@ -724,7 +706,6 @@ upload.televika.com
 upload.telewebion.com
 upload.tv.ir
 upload.tva.ir
-v2.sabaidea.com
 video.anten.ir
 video.aparat.com
 video.aparatkids.com
@@ -763,9 +744,6 @@ vod.televika.com
 vod.telewebion.com
 vod.tv.ir
 vod.tva.ir
-website-staging.imvbox.com
-worldcup2018.sabaidea.com
-worldcup2022.sabaidea.com
 worldservice.irib.ir
 www.anten.ir
 www.aparat.com
@@ -778,7 +756,6 @@ www.lenz.ir
 www.mp4.ir
 www.namasha.com
 www.namava.ir
-www.new.imvbox.com
 www.sabaidea.com
 www.sabavision.com
 www.shabakema.com
@@ -787,5 +764,3 @@ www.televika.com
 www.telewebion.com
 www.tv.ir
 www.tva.ir
-www.www3.live.irib.ir
-www3.live.irib.ir
