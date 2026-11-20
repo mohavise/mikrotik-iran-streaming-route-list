@@ -17,9 +17,6 @@ https://account.televika.com/
 https://account.telewebion.com/
 https://account.tv.ir/
 https://account.tva.ir/
-https://adc1.irib.ir/
-https://adc2.irib.ir/
-https://adc3.irib.ir/
 https://anten.ir/
 https://aparat.com/
 https://aparatkids.com/
@@ -62,6 +59,7 @@ https://app.televika.com/
 https://app.telewebion.com/
 https://app.tv.ir/
 https://app.tva.ir/
+https://ar.ifilmtv.ir/
 https://as-v1.tamasha.com/
 https://as-v2.tamasha.com/
 https://as-v5.tamasha.com/
@@ -257,6 +255,7 @@ https://edge.televika.com/
 https://edge.telewebion.com/
 https://edge.tv.ir/
 https://edge.tva.ir/
+https://en.ifilmtv.ir/
 https://entertainment-api.anten.ir/
 https://event.anten.ir/
 https://event.aparat.com/
@@ -277,7 +276,8 @@ https://event.televika.com/
 https://event.telewebion.com/
 https://event.tv.ir/
 https://event.tva.ir/
-https://fani-app.irib.ir/
+https://fa.ifilmtv.ir/
+https://fa2.ifilmtv.ir/
 https://filimo.com/
 https://gateway.anten.ir/
 https://gateway.aparat.com/
@@ -356,7 +356,6 @@ https://img.televika.com/
 https://img.telewebion.com/
 https://img.tv.ir/
 https://img.tva.ir/
-https://imrl.arc.irib.ir/
 https://imvbox.com/
 https://irib.ir/
 https://job.sabaidea.com/
@@ -566,8 +565,6 @@ https://search.televika.com/
 https://search.telewebion.com/
 https://search.tv.ir/
 https://search.tva.ir/
-https://sepehrapi.irib.ir/
-https://sepehrstb.irib.ir/
 https://shabakema.com/
 https://socket.anten.ir/
 https://static.anten.ir/
@@ -668,11 +665,9 @@ https://stream.telewebion.com/
 https://stream.tv.ir/
 https://stream.tva.ir/
 https://streaming.imvbox.com/
-https://stv.irib.ir/
 https://tamasha.com/
 https://televika.com/
 https://telewebion.com/
-https://test.ca.irib.ir/
 https://tv.anten.ir/
 https://tv.aparat.com/
 https://tv.aparatkids.com/
@@ -770,5 +765,3 @@ https://www.televika.com/
 https://www.telewebion.com/
 https://www.tv.ir/
 https://www.tva.ir/
-https://www.www3.live.irib.ir/
-https://www3.live.irib.ir/
