@@ -17,9 +17,6 @@ https://account.televika.com/
 https://account.telewebion.com/
 https://account.tv.ir/
 https://account.tva.ir/
-https://adc1.irib.ir/
-https://adc2.irib.ir/
-https://adc3.irib.ir/
 https://anten.ir/
 https://aparat.com/
 https://aparatkids.com/
@@ -62,7 +59,6 @@ https://app.televika.com/
 https://app.telewebion.com/
 https://app.tv.ir/
 https://app.tva.ir/
-https://ar.ifilmtv.ir/
 https://as-v1.tamasha.com/
 https://as-v2.tamasha.com/
 https://as-v5.tamasha.com/
@@ -123,16 +119,12 @@ https://auth.televika.com/
 https://auth.telewebion.com/
 https://auth.tv.ir/
 https://auth.tva.ir/
-https://blog.aparat.com/
 https://blog.aparatkids.com/
-https://blog.filimo.com/
 https://blog.sabavision.com/
-https://blog2.filimo.com/
 https://cdn.anten.ir/
 https://cdn.aparat.com/
 https://cdn.aparatkids.com/
 https://cdn.asset.aparatkids.com/
-https://cdn.asset.filimo.com/
 https://cdn.filimo.com/
 https://cdn.ifilmtv.ir/
 https://cdn.imvbox.com/
@@ -226,6 +218,12 @@ https://dl.televika.com/
 https://dl.telewebion.com/
 https://dl.tv.ir/
 https://dl.tva.ir/
+https://dl10.mp4.ir/
+https://dl11.mp4.ir/
+https://dl12.mp4.ir/
+https://dl15.mp4.ir/
+https://dl16.mp4.ir/
+https://dl24.mp4.ir/
 https://download.anten.ir/
 https://download.aparat.com/
 https://download.aparatkids.com/
@@ -264,8 +262,6 @@ https://edge.televika.com/
 https://edge.telewebion.com/
 https://edge.tv.ir/
 https://edge.tva.ir/
-https://email.mg.filimo.com/
-https://en.ifilmtv.ir/
 https://entertainment-api.anten.ir/
 https://event.anten.ir/
 https://event.aparat.com/
@@ -286,9 +282,6 @@ https://event.televika.com/
 https://event.telewebion.com/
 https://event.tv.ir/
 https://event.tva.ir/
-https://fa.ifilmtv.ir/
-https://fa2.ifilmtv.ir/
-https://fani-app.irib.ir/
 https://filimo.com/
 https://gateway.anten.ir/
 https://gateway.aparat.com/
@@ -309,7 +302,6 @@ https://gateway.televika.com/
 https://gateway.telewebion.com/
 https://gateway.tv.ir/
 https://gateway.tva.ir/
-https://help.filimo.com/
 https://ifilmtv.ir/
 https://image.anten.ir/
 https://image.aparat.com/
@@ -368,7 +360,6 @@ https://img.televika.com/
 https://img.telewebion.com/
 https://img.tv.ir/
 https://img.tva.ir/
-https://imrl.arc.irib.ir/
 https://imvbox.com/
 https://irib.ir/
 https://job.sabaidea.com/
@@ -376,7 +367,6 @@ https://kids.mp4.ir/
 https://landing.aparatkids.com/
 https://lenz.ir/
 https://link-s2g.aparatkids.com/
-https://link-s2g.filimo.com/
 https://live.anten.ir/
 https://live.aparat.com/
 https://live.aparatkids.com/
@@ -435,6 +425,8 @@ https://m.televika.com/
 https://m.telewebion.com/
 https://m.tv.ir/
 https://m.tva.ir/
+https://mail.anten.ir/
+https://mail.mp4.ir/
 https://media.anten.ir/
 https://media.aparat.com/
 https://media.aparatkids.com/
@@ -473,6 +465,7 @@ https://mobile.televika.com/
 https://mobile.telewebion.com/
 https://mobile.tv.ir/
 https://mobile.tva.ir/
+https://monazereh.anten.ir/
 https://mp4.ir/
 https://namasha.com/
 https://namava.ir/
@@ -535,8 +528,6 @@ https://player.televika.com/
 https://player.telewebion.com/
 https://player.tv.ir/
 https://player.tva.ir/
-https://qa.filimo.com/
-https://quiz.filimo.com/
 https://s.anten.ir/
 https://s.aparat.com/
 https://s.aparatkids.com/
@@ -556,6 +547,7 @@ https://s.televika.com/
 https://s.telewebion.com/
 https://s.tv.ir/
 https://s.tva.ir/
+https://s1-arvan-edge.anten.ir/
 https://s44.namasha.com/
 https://s45.namasha.com/
 https://s47.namasha.com/
@@ -583,10 +575,7 @@ https://search.televika.com/
 https://search.telewebion.com/
 https://search.tv.ir/
 https://search.tva.ir/
-https://sepehrapi.irib.ir/
-https://sepehrstb.irib.ir/
 https://shabakema.com/
-https://shot.filimo.com/
 https://socket.anten.ir/
 https://static.anten.ir/
 https://static.aparat.com/
@@ -686,13 +675,12 @@ https://stream.telewebion.com/
 https://stream.tv.ir/
 https://stream.tva.ir/
 https://streaming.imvbox.com/
-https://stv.irib.ir/
 https://support.aparatkids.com/
-https://support.filimo.com/
 https://tamasha.com/
+https://tehran01.shatel.edge.anten.ir/
 https://televika.com/
 https://telewebion.com/
-https://test.ca.irib.ir/
+https://tools.anten.ir/
 https://tv.anten.ir/
 https://tv.aparat.com/
 https://tv.aparatkids.com/
@@ -771,6 +759,7 @@ https://vod.televika.com/
 https://vod.telewebion.com/
 https://vod.tv.ir/
 https://vod.tva.ir/
+https://website-staging.imvbox.com/
 https://www.anten.ir/
 https://www.aparat.com/
 https://www.aparatkids.com/
@@ -782,14 +771,12 @@ https://www.lenz.ir/
 https://www.mp4.ir/
 https://www.namasha.com/
 https://www.namava.ir/
+https://www.new.imvbox.com/
 https://www.sabaidea.com/
 https://www.sabavision.com/
 https://www.shabakema.com/
-https://www.shot.filimo.com/
 https://www.tamasha.com/
 https://www.televika.com/
 https://www.telewebion.com/
 https://www.tv.ir/
 https://www.tva.ir/
-https://www.www3.live.irib.ir/
-https://www3.live.irib.ir/

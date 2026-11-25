@@ -17,9 +17,6 @@ account.televika.com
 account.telewebion.com
 account.tv.ir
 account.tva.ir
-adc1.irib.ir
-adc2.irib.ir
-adc3.irib.ir
 anten.ir
 aparat.com
 aparatkids.com
@@ -62,7 +59,6 @@ app.televika.com
 app.telewebion.com
 app.tv.ir
 app.tva.ir
-ar.ifilmtv.ir
 as-v1.tamasha.com
 as-v2.tamasha.com
 as-v5.tamasha.com
@@ -123,16 +119,12 @@ auth.televika.com
 auth.telewebion.com
 auth.tv.ir
 auth.tva.ir
-blog.aparat.com
 blog.aparatkids.com
-blog.filimo.com
 blog.sabavision.com
-blog2.filimo.com
 cdn.anten.ir
 cdn.aparat.com
 cdn.aparatkids.com
 cdn.asset.aparatkids.com
-cdn.asset.filimo.com
 cdn.filimo.com
 cdn.ifilmtv.ir
 cdn.imvbox.com
@@ -226,6 +218,12 @@ dl.televika.com
 dl.telewebion.com
 dl.tv.ir
 dl.tva.ir
+dl10.mp4.ir
+dl11.mp4.ir
+dl12.mp4.ir
+dl15.mp4.ir
+dl16.mp4.ir
+dl24.mp4.ir
 download.anten.ir
 download.aparat.com
 download.aparatkids.com
@@ -264,8 +262,6 @@ edge.televika.com
 edge.telewebion.com
 edge.tv.ir
 edge.tva.ir
-email.mg.filimo.com
-en.ifilmtv.ir
 entertainment-api.anten.ir
 event.anten.ir
 event.aparat.com
@@ -286,9 +282,6 @@ event.televika.com
 event.telewebion.com
 event.tv.ir
 event.tva.ir
-fa.ifilmtv.ir
-fa2.ifilmtv.ir
-fani-app.irib.ir
 filimo.com
 gateway.anten.ir
 gateway.aparat.com
@@ -309,7 +302,6 @@ gateway.televika.com
 gateway.telewebion.com
 gateway.tv.ir
 gateway.tva.ir
-help.filimo.com
 ifilmtv.ir
 image.anten.ir
 image.aparat.com
@@ -368,7 +360,6 @@ img.televika.com
 img.telewebion.com
 img.tv.ir
 img.tva.ir
-imrl.arc.irib.ir
 imvbox.com
 irib.ir
 job.sabaidea.com
@@ -376,7 +367,6 @@ kids.mp4.ir
 landing.aparatkids.com
 lenz.ir
 link-s2g.aparatkids.com
-link-s2g.filimo.com
 live.anten.ir
 live.aparat.com
 live.aparatkids.com
@@ -435,6 +425,8 @@ m.televika.com
 m.telewebion.com
 m.tv.ir
 m.tva.ir
+mail.anten.ir
+mail.mp4.ir
 media.anten.ir
 media.aparat.com
 media.aparatkids.com
@@ -473,6 +465,7 @@ mobile.televika.com
 mobile.telewebion.com
 mobile.tv.ir
 mobile.tva.ir
+monazereh.anten.ir
 mp4.ir
 namasha.com
 namava.ir
@@ -535,8 +528,6 @@ player.televika.com
 player.telewebion.com
 player.tv.ir
 player.tva.ir
-qa.filimo.com
-quiz.filimo.com
 s.anten.ir
 s.aparat.com
 s.aparatkids.com
@@ -556,6 +547,7 @@ s.televika.com
 s.telewebion.com
 s.tv.ir
 s.tva.ir
+s1-arvan-edge.anten.ir
 s44.namasha.com
 s45.namasha.com
 s47.namasha.com
@@ -583,10 +575,7 @@ search.televika.com
 search.telewebion.com
 search.tv.ir
 search.tva.ir
-sepehrapi.irib.ir
-sepehrstb.irib.ir
 shabakema.com
-shot.filimo.com
 socket.anten.ir
 static.anten.ir
 static.aparat.com
@@ -686,13 +675,12 @@ stream.telewebion.com
 stream.tv.ir
 stream.tva.ir
 streaming.imvbox.com
-stv.irib.ir
 support.aparatkids.com
-support.filimo.com
 tamasha.com
+tehran01.shatel.edge.anten.ir
 televika.com
 telewebion.com
-test.ca.irib.ir
+tools.anten.ir
 tv.anten.ir
 tv.aparat.com
 tv.aparatkids.com
@@ -771,6 +759,7 @@ vod.televika.com
 vod.telewebion.com
 vod.tv.ir
 vod.tva.ir
+website-staging.imvbox.com
 www.anten.ir
 www.aparat.com
 www.aparatkids.com
@@ -782,14 +771,12 @@ www.lenz.ir
 www.mp4.ir
 www.namasha.com
 www.namava.ir
+www.new.imvbox.com
 www.sabaidea.com
 www.sabavision.com
 www.shabakema.com
-www.shot.filimo.com
 www.tamasha.com
 www.televika.com
 www.telewebion.com
 www.tv.ir
 www.tva.ir
-www.www3.live.irib.ir
-www3.live.irib.ir
